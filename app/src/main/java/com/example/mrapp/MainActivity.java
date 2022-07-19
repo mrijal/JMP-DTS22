@@ -21,5 +21,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "JMP.HEHE", Toast.LENGTH_SHORT).show();
             }
         });
+        //Ubah ke 2
     }
 }
