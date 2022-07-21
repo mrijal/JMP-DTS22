@@ -2,25 +2,53 @@ package com.example.mrapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
+import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button tombol;
+    EditText etAngka;
+    Button bProses;
+    TextView tvHasil;
+    Button bAbout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        tombol = findViewById(R.id.tombol);
-        tombol.setOnClickListener(new View.OnClickListener() {
+
+        bAbout = findViewById(R.id.b_about);
+        etAngka = findViewById(R.id.editTextNumber);
+        bProses = findViewById(R.id.b_proses);
+        tvHasil = findViewById(R.id.tv_hasil);
+        bAbout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "JMP.HEHE", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this,
+                        AboutActivity.class);
+                startActivity(intent);
             }
         });
-        //Ubah ke 2
+
+        bProses.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //ambil angka dari edit text
+                int angka = Integer.parseInt(etAngka.getText()
+                        .toString());
+
+                String hasil;
+                if(angka%2 == 0){
+                    hasil = getString(R.string.teks_genap,angka);
+                }else{
+                    hasil = getString(R.string.teks_ganjil,angka);
+                }
+                tvHasil.setText(hasil);
+            }
+        });
+
     }
 }

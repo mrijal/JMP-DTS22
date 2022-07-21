@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Praktek JMP</string>
     <string name="textJMP">JMP-B</string>
+    <string name="proses">Proses</string>
+    <string name="hasil">Hasil</string>
+    <string name="about">About</string>
+    <string name="input_angka">Input Angka</string>
+    <string name="teks_genap">Angka %1$d adalah bilangan genap</string>
+    <string name="teks_ganjil">Angka %1$d adalah bilangan ganjil</string>
+    <string name="saya_dari_kelas_jmp_b_vsga_dts_2022">Saya dari kelas JMP-B VSGA DTS 2022</string>
+    <string name="kembali">kembali</string>
+    <string name="nama">Halo, Nama Saya Muhammad Rijal</string>
+    <string name="todo">TODO</string>
 </resources>
