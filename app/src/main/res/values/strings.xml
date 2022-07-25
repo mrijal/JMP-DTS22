@@ -3,12 +3,19 @@
     <string name="textJMP">JMP-B</string>
     <string name="proses">Proses</string>
     <string name="hasil">Hasil</string>
-    <string name="about">About</string>
-    <string name="input_angka">Input Angka</string>
-    <string name="teks_genap">Angka %1$d adalah bilangan genap</string>
-    <string name="teks_ganjil">Angka %1$d adalah bilangan ganjil</string>
+    <string name="Hitung_lingkaran">Hitung Lingkaran</string>
+    <string name="input_angka_ke_1">Input Angka ke 1</string>
+    <string name="lebih_besar">%1$d lebih besar dari %2$d</string>
+    <string name="lebih_kecil">%1$d lebih kecil dari %2$d</string>
+    <string name="sama_besar">keduanya sama</string>
+    <string name="lengkapi">ISI KEDUA ANGKA</string>
     <string name="saya_dari_kelas_jmp_b_vsga_dts_2022">Saya dari kelas JMP-B VSGA DTS 2022</string>
     <string name="kembali">kembali</string>
-    <string name="nama">Halo, Nama Saya Muhammad Rijal</string>
+    <string name="nama">Mari Kita Hitung Luas dan keliling Lingkaran</string>
     <string name="todo">TODO</string>
+    <string name="input_angka_ke_2">Input Angka ke 2</string>
+    <string name="keliling_lingkaran">Keliling Lingkaran</string>
+    <string name="masukkan_jari_jari">Masukkan jari jari</string>
+    <string name="hitung">Hitung</string>
+    <string name="luas_lingkaran">Luas Lingkaran</string>
 </resources>
